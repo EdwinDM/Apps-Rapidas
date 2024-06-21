@@ -1,0 +1,22 @@
+{
+  "name": "my-gutenberg-blocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build && sass src/style.scss build/style.css && sass src/editor.scss build/editor.css",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^28.1.0",
+    "sass": "^1.77.5"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^13.1.0",
+    "@wordpress/blocks": "^13.1.0",
+    "@wordpress/components": "^28.1.0"
+  }
+}
